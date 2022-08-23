@@ -1,0 +1,14 @@
+{
+    "name": "booking-app",
+    "version": "1.0.0",
+    "description": "online booking app system",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "author": "Ghumman Dilshad",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^7.0.1"
+    }
+}
