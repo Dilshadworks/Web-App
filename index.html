@@ -14,23 +14,83 @@
 
 <body>
     <div class="container">
+        <!-- === PAGE HEADER === -->
         <header class="header">
-            <img src="" alt="app logo" class="header__logo">
+            <h2 class="logo">Ghumman</h2>
+            <!-- <img src="" alt="app logo" class="logo">GHumman -->
+            <!-- === HEADER SEARCH BAR === -->
             <form action="#" class="search">
                 <input type="text" class="search__input" placeholder="search bar" name="" id="">
                 <button class="search__button">
                     <svg class="search__icon">
-                        <use xlink:href="./img/sprite.svg#magnifying-glass"></use>
+                        <use xlink:href="./img/sprite.svg#icon-magnifying-glass"></use>
                     </svg>
                 </button>
             </form>
+            <!-- === HEADER NAV === -->
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="./img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="./img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="./img/avatar" alt="user photo" class="user-nav__user-photo">
+                    <spn class="user-nav__user-name">Aaluu</spn>
+                </div>
+            </nav>
         </header>
+        <!-- === PAGE MAIN CONTENT === -->
         <div class="content">
+            <!-- === SIDE NAVIGATION === -->
             <nav class="sidebar">
-                Navigation
+                <ul class="side-nav">
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>HOME</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span>Flight</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Car wash</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Places</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                    &copy; 2022 by dilshad. All rights reserved. design by trillo
+                </div>
             </nav>
             <main class="main-view">
-
+                ggggggggg
             </main>
         </div>
     </div>
