@@ -117,7 +117,7 @@
         &:not(:last-child) {
             margin-bottom: 0.5rem;
             @media (max-width: $bp-medium) {
-                margin-bottom: 0;
+                margin-bottom: 0.1rem;
             }
         }
         @media (max-width: $bp-medium) {
